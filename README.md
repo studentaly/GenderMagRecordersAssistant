@@ -110,13 +110,15 @@ Here is a step-by-step guide on how to run the Recorder Assistant tool:
    1) After you have installed the GenderMag recorder's assistance extension a 
    maroon button will appear on the bottom middle of the screen. Click it to 
    open the tool.
+![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/cea25594-89f9-4edf-94fd-b3d89400f479)
+
       
-   2) After clicking on the maroon button, text explaining what GenderMag is 
+   3) After clicking on the maroon button, text explaining what GenderMag is 
    will appear on the screen. Click on "Start GenderMag" to get started.
       
-   3) Enter the name of your team and click submit.
+   4) Enter the name of your team and click submit.
    
-   4) Select the persona that you want to use for this session. 
+   5) Select the persona that you want to use for this session. 
       Currently, you can select from these personas: Abi, Tim, Pat, or a custom persona of your creation.
       
       After you have selected the persona, the description of the selected 
@@ -127,56 +129,75 @@ Here is a step-by-step guide on how to run the Recorder Assistant tool:
 
       If you want to change the persona or team name, click edit on top of the 
       tool.
+      ![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/d2323725-ed41-4f38-8ffd-143855292761)
+
    
-   5) Provide the scenario that your persona will be performing in the text box 
+   7) Provide the scenario that your persona will be performing in the text box 
    and click submit.
     
-   6) Enter a subgoal and click 'enter subgoal'. 
+   8) Enter a subgoal and click 'enter subgoal'.
+
+      ![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/2ad699e4-5597-4429-8baf-63f64a8cdd76)
+
    
-   7) Answer Yes, No, or Maybe to describe if the persona would have formed this
+   10) Answer Yes, No, or Maybe to describe if the persona would have formed this
     subgoal as a step to their overall goal. In the text box, explain 
     why, why not, or why maybe. On the right of that text box, select all the 
     checkboxes corresponding to the facets that were used to answer the previous
     question. Then click save and continue.
+![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/29566863-c2b1-4a15-a430-1659225b3e5b)
+
     
-   8) Enter an action that pertains to this subgoal. 
-   
-   9) Click on the 'click here' button to take a screen capture of ideal action. 
+   12) Enter an action that pertains to this subgoal. Then click save and continue.
+   ![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/06719292-19fc-438a-a4e8-fc49f0048278)
+
+   13) Click on the 'click here' button to take a screen capture of ideal action. 
    Move the rectangular box around your box to the action that you want to focus 
    on and hit the left click. This will create a screen capture of ideal action. 
    If you want to add more info to the capture click on the draw on the image 
-   button and annotate the image. If the image looks okay, click 'save and 
-   continue'.
+   button and annotate the image. If the image looks okay, click 'continue'.
+![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/2c3797f9-f494-44ce-bacf-007b271393c5)
 
-   10) Answer: Yes, No, or Maybe for, will the persona know what to do at this 
+
+   15) Answer: Yes, No, or Maybe for, will the persona know what to do at this 
    step, and in the text box under it explain why, why not, or why maybe? On 
    the right of that textbox select all the checkboxes against the facets that 
-   were used to answer the previous question.
+   were used to answer the previous question. Click "Continue".  
+![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/f42a8ac3-34d2-4d86-8218-71473212f2ec)
 
-   11) Perform the action you indicated previously in step 9 and click on the 
-   'click here' link to continue.
+
+   17) Perform the action you indicated previously in step 9 and click on the 
+   'Continue' link to continue.
+![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/28e9a943-d58c-4189-b9c9-42d528dd1684)
+
    
-   12) Answer: Yes, No, or Maybe for, if the persona did the right thing will 
+   19) Answer: Yes, No, or Maybe for, if the persona did the right thing will 
    she know that they did the right thing, and is making progress towards the 
    goal and in the textbox under it explain why, why not, or why maybe? On the 
    right of that textbox select all the checkboxes against the facets that were
-   used to answer the previous question. Click 'save and continue' when ready.
+   used to answer the previous question. Click 'continue' when ready.
+![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/c9132a32-5065-4779-a193-377ccb6c6c47)
+
        
-   13) If your persona needs another action to complete the current subgoal, 
+   21) If your persona needs another action to complete the current subgoal, 
    enter the new action in the top text box and click 'add another action'. 
    Return to (9) and complete all subsequent steps.
    
-   14) If the subgoal is complete, but another subgoal is needed to complete 
+   22) If the subgoal is complete, but another subgoal is needed to complete 
    the scenario, enter the subgoal in the bottom text box and click 'create new 
    subgoal'. Return to (7) and complete all subsequent steps. 
     
-   15) If the scenario has been completed, click 'download and end my GenderMag 
+   23) If the scenario has been completed, click 'download and end my GenderMag 
    session'. This will take you to another page and download a zip file with 
    your session's information.
+![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/700bbc06-545c-42ee-bdff-ce35c08b5d1a)
+
    
-   16) If the zip file was not downloaded click Re-Download zip file. Otherwise,
+   25) If the zip file was not downloaded click Re-Download zip file. Otherwise,
     check the box next to the disclaimer saying that the file was downloaded and
     hit "Quit GenderMag". This will reload the page and close the tool.
+![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/f008d4c3-b78c-4da8-b0ea-2e36d67f55a3)
+
 
 See the video at http://gendermag.org for examples of what running the tool 
 looks like.
@@ -184,8 +205,9 @@ looks like.
 ## How to Disable GenderMag:
 
 
-To turn off the GenderMag extension navigate back to “Extensions” and uncheck 
-the “Enable” box and uncheck “Developer Mode”.
+To turn off the GenderMag extension navigate back to “Extensions” and toggle the blue toggle button.  You may also modify "Details" or Remove extension by clicking "Remove".
+![image](https://github.com/studentaly/GenderMagRecordersAssistant/assets/86038809/a3243020-84d9-4867-86aa-12f92a6e2916)
+
 
 <a id="Contributing"></a>
 
