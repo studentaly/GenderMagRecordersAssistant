@@ -1,39 +1,28 @@
 /*
  * File Name: action.js
- * Functions: preActionQuestions, doActionPrompt, postActionQuestions, actionLoop, reloadToolTipState
+ * Functions: setFacetPopups, preActionQuestions, doActionPrompt, postActionQuestions, actionLoop, reloadToolTipState
  * Description: This file contains functions to handle the action part of the walkthrough starting right
  *   after the screenshot through the end and exit of the session
  */
 
-
-//Sets persona name?? Runs at startup??
 var personaName = localStorage.getItem("personaName");
 if (personaName !== null ) {personaName = personaName.slice(1, personaName.length-1);}
 else { personaName = "Abi"; }
 
+/*
+ * Function: setFacetPopups
+ * Description: This function appears to handle non-custom persona Names by adding tool tips. 
+ *	       Unclear what the alternative is for Custom names?
+ *	 
+ * Params: personaName
+ */
 function setFacetPopups(personaName) {
     if(personaName !== "Custom"){
         var lowercaseName = personaName.toLowerCase();
         //set functionality for motivation pop up info window
         $(".MTrigger").unbind("click").click(function () {
             addToolTip(lowercaseName+"MToolTip", personaName);
-            /*$('#abbyMSeeMOAR').off('click').on('click', function () {
-                var isOpen = $(this).attr("stateVar");
-
-                //The "see more" is expanded and needs to be closed
-                if (isOpen == 0) {
-                    $("#abbyMPreview").hide();
-                    $("#abbyMComplete").show();
-                    $("#abbyMSeeMOAR").html("See less");
-                    $(this).attr("stateVar", 1);
-                } else {
-                    $("#abbyMPreview").show();
-                    $("#abbyMComplete").hide();
-                    $("#abbyMSeeMOAR").html("See more...");
-                    $(this).attr("stateVar", 0);
-                }
-
-            });*/
+		
         });
         //set up other info pop ups
         $(".IPSTrigger").unbind("click").click(function () {
@@ -240,7 +229,7 @@ function postActionQuestions(el){
  * Params: el - tooltip pop up element
  */
 function actionLoop(el){
-	//hide post action questions, show action loop (if user wants new subgoal/action or close session
+	//hide post action questions, show action loop (if user wants new subgoal/action or close session)
 	$(el).find("#postActionTemplate").hide();
     $(el).find("#imageCaption2").hide();	
 	$(el).find("#HRmorelikefunpolice").hide();
@@ -269,14 +258,14 @@ function actionLoop(el){
                 "risk": false,
                 "tinker": false,
                 "none": false};
-            saveIdealAction(actionName, yesNoMaybe, whyText, facets, yesNoMaybe, whyText, facets);
-			$(el).remove();
-        	setStatusToFalse("drewToolTip");
-			overlayScreen("");
-			preActionQuestions(el);
+            	saveIdealAction(actionName, yesNoMaybe, whyText, facets, yesNoMaybe, whyText, facets);
+	    	$(el).remove();
+            	setStatusToFalse("drewToolTip");
+		overlayScreen("");
+		preActionQuestions(el);
 
         	//Reset action states
-			setStatusToTrue("inMiddleOfAction");
+		setStatusToTrue("inMiddleOfAction");
         	setStatusToFalse("highlightedAction");
         	setStatusToFalse("gotScreenshot");
         	setStatusToFalse("gotPreActionQuestions");
@@ -373,7 +362,7 @@ function actionLoop(el){
 		});
 	}
 
-	//TODO(roseg31) : Investigate this...
+	//TODO(roseg31) : Investigate this...  (more details about why this needs to be investigated?)
 	//on save and exit button click, save all info, close session
 	$("#saveAndExit").unbind( "click" ).click(function(){
 		//create and download sheet with session data
@@ -442,6 +431,7 @@ function reloadToolTipState () {
 		$(toolTip).find("#imageCanvasTemplate").hide();
 		preActionQuestions(toolTip);
 	}
+	// Unclear what this block does, code is commented out?
 	//???? who what when why where how?
 	else if (statusIsTrue("highlightedAction")) {
 
