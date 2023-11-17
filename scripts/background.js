@@ -48,7 +48,4 @@ var screenShotURL;
 				  gmFrame.style.display = 'none';
   			}
 		}
-		/* Alternate option: link to the GitHub
-		window.open("https://github.com/mendezc1/GenderMagRecordersAssistant");
-		*/
 		});
