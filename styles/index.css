@@ -17,6 +17,11 @@ body{
     top: 50%;
     margin-top: -8px;
 }
+
+.fakewindowcontain .ui-widget-overlay {
+    position: absolute;
+}
+
 #icons {
     margin: 0;
     padding: 0;
@@ -33,9 +38,7 @@ body{
     float: left;
     margin: 0 4px;
 }
-.fakewindowcontain .ui-widget-overlay {
-    position: absolute;
-}
+
 select {
     width: 200px;
 }
